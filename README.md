@@ -49,11 +49,7 @@ house-price-predictor/
 ├── requirements.txt # Python dependencies
 └── README.md
 
-yaml
-Copy
-Edit
 
----
 
 ## 💻 How to Run Locally
 
@@ -72,14 +68,12 @@ venv\Scripts\activate        # Windows
 Install dependencies
 
 bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run the app
 
 bash
-Copy
-Edit
+
 python app.py
 Open in browser
 Visit http://127.0.0.1:5000 to access the app.
@@ -98,9 +92,7 @@ Option 2: Railway, Streamlit Cloud, or Heroku (similar setup)
 📦 Requirements
 Make sure these are in your requirements.txt:
 
-nginx
-Copy
-Edit
+
 flask
 numpy
 pandas
@@ -109,9 +101,10 @@ joblib
 To generate it:
 
 bash
-Copy
-Edit
+
 pip freeze > requirements.txt
+
+
 ✨ Future Improvements
 Add interactive maps for location selection
 
@@ -125,5 +118,6 @@ Add user authentication for profile-based history
 Hyderabad Housing Data from Kaggle
 
 Scikit-learn for ML tools
+
 
 Flask for backend
