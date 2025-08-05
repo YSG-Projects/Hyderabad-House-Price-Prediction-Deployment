@@ -8,8 +8,6 @@ app = Flask(__name__)
 # Load trained model
 model = joblib.load("house_price_model.pkl")
 
-# Example feature names (update based on your dataset's final features)
-feature_names = joblib.load("feature_names.pkl")  # Optional: save & load column names if needed
 
 @app.route('/')
 def home():
@@ -29,3 +27,4 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
