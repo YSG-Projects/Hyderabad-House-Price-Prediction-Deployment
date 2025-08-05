@@ -76,7 +76,7 @@ bash
 
 python app.py
 Open in browser
-Visit http://127.0.0.1:5000 to access the app.
+Visit https://hyderabad-house-price-prediction.onrender.com/ to access the app.
 
 🌍 Deployment
 Option 1: Render
@@ -121,3 +121,4 @@ Scikit-learn for ML tools
 
 
 Flask for backend
+
